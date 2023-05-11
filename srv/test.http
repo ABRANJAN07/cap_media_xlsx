@@ -1,0 +1,17 @@
+### Read Metadata 
+
+GET http://localhost:4004/attachments/$metadata
+
+### GET req
+
+GET http://localhost:4004/attachments/Files(5e0491d6-4e4e-4be3-befe-30eceeb4f703)/content
+
+
+### GET req
+
+GET http://localhost:4004/attachments/Files
+
+
+### Calling unBoundedFunc()
+
+GET http://localhost:4004/attachments/unBoundedFunc(ID='ac172796-4b2f-4151-b022-9ef3f8b71fe7')
